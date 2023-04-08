@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day-3_task(kick start program)</title>
+    </head>
+    <style>
+        .bg-container{
+            height: 700px;
+            width: 800px;
+            margin-left: 250px;
+            margin-top: 50px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .bg-image{
+            background-image: url("https://wallpapercave.com/wp/wp4863872.jpg");
+            background-size: cover;
+            height: 30vh;
+        }
+    </style>
+    <body style="background-color: black;">
+        <div class="bg-container">
+            <div class="bg-image">
+                <h1 style="margin-left: 50px; padding-top: 50px; color: white;">Contact Us</h1>
+                <p style="margin-left: 20px; color: rgb(235, 10, 167); font-size: 20px;">Please fill this form to contact us</p>
+            </div><br><br>
+            <form>
+                <label for="fname" style="margin-left: 10px; margin-right: 10px;" >First Name</label>
+                <input id="fname" type="text" required> 
+                <label for="lname" style="margin-left: 30px; margin-right: 10px;">Last Name</label>
+                <input id="lname" type="text"><br><br>
+                <label for="dob" style="margin-left:10px; margin-right: 10px;">Date Of Birth</label>
+                <input id="dob" type="date"><br><br>
+                <label for="gen" style="margin-left: 10px; margin-right: 10px;" >Gender</label><br>
+                <input id="gen" type="radio" style="margin-left: 50px;" name="gender">
+                <label>Male</label><br>
+                <input id="gen" type="radio" style="margin-left: 50px;" name="gender">
+                <label>Female</label><br><br>
+                <label for="pnum" style="margin-left: 10px; margin-right: 10px;" >Phone Number</label>
+                <input id="pnum" type="number"><br><br>
+                <label  for="mes" style="margin-left: 10px; margin-right: 10px;" >Message</label><br><br>
+                <textarea  rows="10" cols="50" id="mes" style="margin-left: 30px;"></textarea><br><br>
+                <input type="checkbox" id="update" style="margin-left: 20px;">
+                <label  for="update" style="margin-left: 0px;" >Can we send updates through Whatsapp?</label><br><br>
+                <input type="submit" style="margin-left: 100px;">
+            </form>
+
+        </div>
+    </body>
+</html>
